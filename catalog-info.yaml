@@ -9,6 +9,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: spotify-portal-public-demo/spotify-portal-public-demo-gke
+    newrelic.com/dashboard-guid: NjkxMjg2M3xWSVp8REFTSEJPQVJEfGRhOjI1MzE2NDk
 spec:
   type: kubernetes
   lifecycle: experimental
