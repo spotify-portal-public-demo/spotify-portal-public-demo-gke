@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: spotify-portal-public-demo-gke
+  description: "GKE cluster used for Portal demo environment"
+  tags:
+    - gcp
+    - gke
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: spotify-portal-public-demo/spotify-portal-public-demo-gke
+spec:
+  type: kubernetes
+  lifecycle: experimental
+  owner: "group:default/infraops"
